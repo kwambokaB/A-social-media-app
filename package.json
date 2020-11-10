@@ -1,0 +1,28 @@
+{
+  "name": "a-social-media-app",
+  "version": "1.0.0",
+  "description": "create a social media app using MongoDB, Express, Node, React, GraphQL, and Node (the MERNG stack). Followed along from https://www.youtube.com/watch?v=n1mdAPFq2Os&amp;ab_channel=freeCodeCamp.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwambokaB/A-social-media-app.git"
+  },
+  "author": "kwambokaB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwambokaB/A-social-media-app/issues"
+  },
+  "homepage": "https://github.com/kwambokaB/A-social-media-app#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  }
+}
